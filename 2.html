@@ -3,21 +3,24 @@
 <head>
   <title>THE WEEKND - After Hours</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">THE WEEKND</a></h1>
-  <ol style="margin-top:40px">
+  <div id="grid">
+  <ol>
     <li><a href="1.html">Starboy</a></li>
     <li><a href="2.html">After Hours</a></li>
     <li><a href="3.html">House Of Ballons</a></li>
   </ol>
+  <div id="article">
   <h2>
     <a href="https://music.apple.com/kr/album/after-hours/1499378108" target="_blank" title="the weeknd-apple music">
       After Hours - The Weeknd
     </a>
   </h2>
-  <img src="afterhours.jpeg" width="20%">
-  <p style="margin-top:25px">
+  <img src="afterhours.jpeg" id="pic_1">
+  <p>
     Thought I almost died in my dream again (Baby, almost died)<br>
     Fightin' for my life, I couldn't breathe again<br>
     I'm fallin' in too deep (Oh, oh)<br>
@@ -39,5 +42,29 @@
       Talk to me, without you, I can't breathe<br>
     <strong>
   </P>
+  </div>
+</div>
+  <p>
+    <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://music-on-the-weeknd.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+
 </body>
 </html>
